@@ -1,1 +1,1 @@
-web: gunicorn trade_risk_calculator:app
+worker: python trade_risk_calculator.py
