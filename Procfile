@@ -1,1 +1,1 @@
-web: gunicorn app:trade_risk_calculator
+web: gunicorn trade_risk_calculator:app
