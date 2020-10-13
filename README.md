@@ -51,3 +51,5 @@ There will be two different ways to determine trade risk:
 #### Future Updates/Changes
 1. Switch back to using tick size and tick value instead of point value
     - this may be needed for the "get stop loss target for trade" option
+    - add micro contracts to dictionary(ie:MES, MNQ, MYM, etc)
+    - add VOLQ future to dictionary
