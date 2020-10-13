@@ -16,6 +16,10 @@ futures = {'DX': 1000.00, 'BTC': 5.00,'6B': 62500.00,'6C': 100000.00,'6J': 12500
            'CT': 500.00,'OJ': 150.00,'KC': 375.00,'SB': 1120.00,'CC': 10.00, 'LS': 110.00
           }
 
+@app.route("/")
+def home():
+    return '<h1>Trade Risk Calculator</h1>'
+
 @app.route('/risk/')
 def risk(Get):
     def trade_risk(ticker_symbol, num_contracts, entry_price, exit_price):

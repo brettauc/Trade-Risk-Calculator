@@ -1,0 +1,33 @@
+1. Complete code for get risk amount for trade part (started 10/7)
+    - [x] Add message if ticker symbol is not in the dictionary (completed 10/8)
+        - not using this: my new plan is populate a searchable menu in the dashboard. if the ticker symbol is not in the dictionary it will not return a value to be selected
+    - [x] Determined it was better to use point value rather than tick size and per tick $ amount (completed 10/8)
+        - decided to use point values to allow for a more simplistic dictionary structure
+    - [x] create a function with the completed code (completed 10/8)
+     
+2. Start get stop loss target for trade (started 10/8/2020)
+    - [x] Determine if need tick size and value to do this (completed 10/8)
+        - was able to get the desired output with the values that were input
+    - [x] Determine how to handle if trade is a short side trade (completed 10/8)
+            * accomplished with a simple if/then statement
+    - [x] Figure out how to allow for different float value outputs depending on the actual output value (completed 10/12)
+            * using rounding to 8 decimal points as that is the most there should be and zeros will drop off.
+      - [x] create a function with the completed code (completed 10/8)
+
+3. Create dashboard
+    - [x] Determine what to use: panel, Flask, or Django (completed 10/12)
+    - [ ] decided to use panel as I'm familar with it
+    - [ ] this would need to be updated to include Flask or Django code to be deployed to Heroku or AWS
+        
+4. Create tKinter gui and convert to a .exe file.
+
+5. Add new items to dictionary
+    - [ ] Add micro contracts to dictionary(ie:MES, MNQ, MYM, etc)
+    - [ ] VOLQ future
+    
+6. Switch back to using tick size and tick value instead of point value
+    - this may be needed for the "get stop loss target for trade" so that it can calculate stop loss target by ticks and not points.
+ 
+7. Determine how/where to put application online
+    - [ ] AWS, Google Cloud, Heroku
+            - Have decided to use Heroku. Need to look into directions on how to deploy app to this.
