@@ -1,5 +1,8 @@
+from flask import Flask, render_template
 import panel as pn
 pn.extension()
+
+app = Flask(__name__)
 
 # future contract symbol and point value
 futures = {'DX': 1000.00, 'BTC': 5.00,'6B': 62500.00,'6C': 100000.00,'6J': 12500000.00,'6S': 125000.00,'6E': 125000.00,
@@ -13,6 +16,7 @@ futures = {'DX': 1000.00, 'BTC': 5.00,'6B': 62500.00,'6C': 100000.00,'6J': 12500
            'CT': 500.00,'OJ': 150.00,'KC': 375.00,'SB': 1120.00,'CC': 10.00, 'LS': 110.00
           }
 
+@app.route('/risk/')
 def risk(Get):
     def trade_risk(ticker_symbol, num_contracts, entry_price, exit_price):
         
@@ -78,3 +82,6 @@ def risk(Get):
 
 dashboard = pn.interact(risk, Get = ['Risk for Trade','Stop Loss Target'])
 dashboard.servable()
+
+if __name__ == "__main__": 
+    app.run(debug=True)
