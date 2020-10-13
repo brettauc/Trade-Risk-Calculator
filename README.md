@@ -21,9 +21,4 @@ There will be two different ways to determine trade risk:
 - Inputs: ticker symbol, entry price, total risk tolerance, long/short, number of contracts
 - Output: Stop loss target, risk per contract
 
-#### Panel Dashboard Calculator
-##### Get Risk Amount for Trade
-
-[![Watch the video]](https://www.youtube.com/watch?v=Tf8QgcCy9SU&feature=youtu.be)
-
 [Click here](updates_and_futures_changes.txt) to see working log and future changes for the application.
