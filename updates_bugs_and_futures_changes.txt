@@ -12,22 +12,29 @@
             * accomplished with a simple if/then statement
     - [x] Figure out how to allow for different float value outputs depending on the actual output value (completed 10/12)
             * using rounding to 8 decimal points as that is the most there should be and zeros will drop off.
-      - [x] create a function with the completed code (completed 10/8)
+            * update(10/15) - figured out how to print the exact amount of decimals basd on the tick_size
+    - [x] create a function with the completed code (completed 10/8)
 
 3. Create dashboard
     - [x] Determine what to use: panel, Flask, or Django (completed 10/12)
-    - [ ] decided to use panel as I'm familar with it
+            - decided to use panel as I'm familar with it
     - [ ] this would need to be updated to include Flask or Django code to be deployed to Heroku or AWS
         
-4. Create tKinter gui and convert to a .exe file.
-
+4. Create tKinter gui and convert to a .exe file.(started 10/15)
+    - [] exit_price, risk_per_contract, total_risk variable need to be reset to floats and/or int after calculate button is pressed
+    - [] create message box if the total risk is not a multiple of the tick_size
+    - [] allow for auto-sizing of the window
+    
 5. Add new items to dictionary
-    - [ ] Add micro contracts to dictionary(ie:MES, MNQ, MYM, etc)
+    - [x] Add micro contracts to dictionary(ie:MES, MNQ, MYM, etc) (completed 10/13)
     - [ ] VOLQ future
     
-6. Switch back to using tick size and tick value instead of point value
-    - this may be needed for the "get stop loss target for trade" so that it can calculate stop loss target by ticks and not points.
+6. Switch back to using tick size and tick value instead of point value (completed 10/15)
+    - [x] this may be needed for the "get stop loss target for trade" so that it can calculate stop loss target by ticks and not points.
  
 7. Determine how/where to put application online
     - [ ] AWS, Google Cloud, Heroku
             - Have decided to use Heroku. Need to look into directions on how to deploy app to this.
+            
+Bugs
+1. [x]Panel does not switch to the trade_stop_loss function when the "Get" value is changed
