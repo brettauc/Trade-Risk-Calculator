@@ -38,4 +38,4 @@
             
 Bugs
 1. [x] Panel does not switch to the trade_stop_loss function when the "Get" value is changed
-2. [ ] output doesn't update if for stop loss if selected long and calculate then select short and calculate (vice versa)
+2. [ ] output doesn't update for stop loss option if long radio button is selected and calculated then select short and calculate (vice versa)

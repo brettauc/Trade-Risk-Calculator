@@ -101,10 +101,10 @@ total_risk_box.grid(row=3, column=1, pady=5, sticky=tk.E)
 
 # RADIO BUTTONS FOR long or short
 # Long trade
-long_trade = tk.Radiobutton(ls_frame, text="Long", value='Long', variable=ls_str)
+long_trade = tk.Radiobutton(ls_frame, text="Long", value='L', variable=ls_str)
 long_trade.grid(row=5, column=0)
 # short trade
-short_trade = tk.Radiobutton(ls_frame, text="Short", value='Short', variable=ls_str)
+short_trade = tk.Radiobutton(ls_frame, text="Short", value='S', variable=ls_str)
 short_trade.grid(row=5, column=1)
 
 # CREATE BOX THAT WILL HOLD THE TICKER SYMBOL SELECTOR
