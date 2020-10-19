@@ -4,7 +4,7 @@
 Create an app to determine risk on a commodity trade.  
 
 #### Idea
-Futures contracts have different tick sizes and tick values.  Unless very familar with this information it has to be looked up so that risk on a trade can be calculated.  This calculator will allow a user to calculate risk without knowing tick sizes or tick values.
+Futures contracts have different tick sizes and tick values.  Unless very familiar with this information it has to be looked up so that risk on a trade can be calculated.  This calculator will allow a user to calculate risk without knowing tick sizes or tick values.
 
 There will be two different ways to determine trade risk:
 - get total risk for a trade based on entry price, stop loss target, and the number of contracts
