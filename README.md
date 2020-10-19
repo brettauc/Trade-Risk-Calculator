@@ -27,7 +27,7 @@ I pivoted the project to building a GUI with python's tkinter library that could
 
 * To get the total risk on a trade.....Select 'Trade Risk', the ticker symbol from the drop down list, enter # of contracts, entry price and exit price then click the calculate button.  The output will show the total risk and the per contract risk as show below.
 
-     ![trade risk](Images/image3.jpg)
+     ![trade risk](Images/image3.JPG)
 <p>&nbsp;</p>
 
 * To get a stop loss target.....Select "Stop Loss", the ticker symbol from the drop down list, enter # of contracts, entry price, total risk willing to be taken on the trade, select if the trade is a long or short side trade then click the calculate button.  The output will show the stop loss target and per contract risk as shown below.
