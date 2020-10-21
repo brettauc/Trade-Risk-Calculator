@@ -4,7 +4,7 @@
 Create an app to determine risk on a commodity trade.  
 
 #### Idea
-Futures contracts have different tick sizes and tick values.  Unless very familar with this information it has to be looked up so that risk on a trade can be calculated.  This calculator will allow a user to calculate risk without knowing tick sizes or tick values.
+Futures contracts have different tick sizes and tick values.  Unless very familiar with this information it has to be looked up so that risk on a trade can be calculated.  This calculator will allow a user to calculate risk without knowing tick sizes or tick values.
 
 There will be two different ways to determine trade risk:
 - get total risk for a trade based on entry price, stop loss target, and the number of contracts
@@ -27,7 +27,7 @@ I pivoted the project to building a GUI with python's tkinter library that could
 
 * To get the total risk on a trade.....Select 'Trade Risk', the ticker symbol from the drop down list, enter # of contracts, entry price and exit price then click the calculate button.  The output will show the total risk and the per contract risk as show below.
 
-     ![trade risk](Images/image3.jpg)
+     ![trade risk](Images/image3.JPG)
 <p>&nbsp;</p>
 
 * To get a stop loss target.....Select "Stop Loss", the ticker symbol from the drop down list, enter # of contracts, entry price, total risk willing to be taken on the trade, select if the trade is a long or short side trade then click the calculate button.  The output will show the stop loss target and per contract risk as shown below.
